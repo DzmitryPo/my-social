@@ -1,9 +1,4 @@
-import React from 'react';
-
-const Navbar = () => {
-    return <navbar className='navbar'>
-        <div> dsfasdfdgffg fsgdfsgsdfg dgfsdfgfgsdf</div>
-    </navbar>
+.item {
+    color: white;
+    background-color: black;
 }
-
-export default Navbar;

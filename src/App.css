@@ -1,1 +1,36 @@
 
+.app-wrapper {
+    margin: 0 auto;
+    display: grid;
+    width: 1200px;
+
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+
+    grid-template-areas:
+            "h h h"
+            "nl p nr"
+            "b b b";
+
+}
+
+.header {
+    grid-area: h;
+}
+
+.navbarleft {
+    grid-area: nl;
+}
+
+.navbarright {
+    grid-area: nr;
+}
+
+.profile {
+    grid-area: p;
+}
+
+.footer {
+    grid-area: b;
+}

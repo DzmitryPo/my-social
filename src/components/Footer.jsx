@@ -1,10 +1,10 @@
 import React from 'react';
-import s from './Bottom.module.css'
+import s from './Footer.module.css'
 
-const Bottom = () => {
+const Footer = () => {
     return <bottom className={s.item}>
-        <a>BOTTOM</a>
+        <a>FOOTER</a>
     </bottom>
 }
 
-export default Bottom;
+export default Footer;
