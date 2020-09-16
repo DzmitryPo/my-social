@@ -4,7 +4,6 @@ import Header from './components/Header';
 import Navbar from "./components/Navbar";
 import Profile from'./components/Profile';
 import Navbarright from './components/Navbarright';
-import Footer from './components/Footer';
 
 function App() {
   return (<div className='app-wrapper'>
@@ -19,9 +18,6 @@ function App() {
           </div>
           <div className='navbarright'>
               <Navbarright />
-          </div>
-          <div className='footer'>
-              <Footer />
           </div>
     </div>
   );

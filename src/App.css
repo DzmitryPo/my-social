@@ -4,9 +4,9 @@
     display: grid;
     width: 1200px;
 
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2px;
+    grid-template-rows: 60px 1fr 1fr;
+    grid-template-columns: 2fr 10fr 2fr;
+    grid-gap: 1px;
 
     grid-template-areas:
             "h h h"
@@ -17,6 +17,10 @@
 
 .header {
     grid-area: h;
+}
+
+.header img {
+    width: 250px;
 }
 
 .navbarleft {

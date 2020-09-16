@@ -3,7 +3,7 @@ import s from './Header.module.css'
 
 const Header = () => {
     return <header className={s.item}>
-        <a>HEADER</a>
+        <img src='header.jpg'></img>
     </header>
 }
 

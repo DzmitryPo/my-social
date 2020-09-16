@@ -2,3 +2,11 @@
     color: white;
     background-color: black;
 }
+
+.item.link {
+    color: white;
+}
+
+.item.link.active {
+    color: green;
+}
